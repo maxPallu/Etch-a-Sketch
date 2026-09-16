@@ -1,12 +1,18 @@
-div {
-    border: 2px solid black;
-    height: 64px;
-    width: 64px;
+body {
+    display: flex;
     flex: 1;
+}
+
+.divSquare {
+   
+    border: 2px solid black;
+    height: 36px;
+    width: 36px;
 }
 
 .container {
     display: flex;
-    flex: 1;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 32px;
+    padding: 48px;
 }
