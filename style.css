@@ -4,10 +4,13 @@ body {
 }
 
 .divSquare {
-   
     border: 2px solid black;
     height: 36px;
     width: 36px;
+}
+
+.divSquare:hover {
+    background-color: blue;
 }
 
 .container {
