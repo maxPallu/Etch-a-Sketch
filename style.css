@@ -1,0 +1,12 @@
+div {
+    border: 2px solid black;
+    height: 64px;
+    width: 64px;
+    flex: 1;
+}
+
+.container {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+}
