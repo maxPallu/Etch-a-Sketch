@@ -1,16 +1,20 @@
-body {
+.header {
     display: flex;
-    flex: 1;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
 }
 
 .divSquare {
     border: 2px solid black;
-    height: 36px;
-    width: 36px;
+    height: 24px;
+    width: 24px;
+    transition: 8s;
 }
 
 .divSquare:hover {
     background-color: blue;
+    transition: 0s;
 }
 
 .container {
@@ -18,4 +22,7 @@ body {
     flex-wrap: wrap;
     gap: 32px;
     padding: 48px;
+    align-items: center;
+    justify-content: center;
+    width: 960px;
 }
